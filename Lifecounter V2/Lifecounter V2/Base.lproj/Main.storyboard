@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lifecounter_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffp-dC-DRO">
+                                <rect key="frame" x="47" y="91" width="320" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="dan-Bs-M1V"/>
+                                    <constraint firstAttribute="height" constant="120" id="k7e-OO-MJX"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNt-Up-C4b">
+                                <rect key="frame" x="154.5" y="773" width="105.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="View History"/>
+                                <connections>
+                                    <action selector="historyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yta-ND-8Hh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s6-hA-P27">
+                                <rect key="frame" x="292.5" y="52" width="93.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Add Player"/>
+                                <connections>
+                                    <action selector="addPlayerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7VS-0v-fIK"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="46Q-4M-Zip">
+                                <rect key="frame" x="36" y="306" width="344" height="387"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="jec-TA-lJv" customClass="CustomTableViewCell" customModule="Lifecounter_V2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="344" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jec-TA-lJv" id="tOg-v5-o7M">
+                                            <rect key="frame" x="0.0" y="0.0" width="344" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6x-gg-md6">
+                                                    <rect key="frame" x="32" y="11" width="115" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld2-a3-5Dn">
+                                                    <rect key="frame" x="274" y="11" width="35" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="playerName" destination="J6x-gg-md6" id="fqO-Nu-dlN"/>
+                                            <outlet property="playerScore" destination="Ld2-a3-5Dn" id="scU-Rg-rj9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="77" translatesAutoresizingMaskIntoConstraints="NO" id="qCd-2c-PWn">
+                                <rect key="frame" x="35" y="231" width="344" height="34"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Y3-59-y7I">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="mz8-mc-38f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qm-Gi-Y4q">
+                                        <rect key="frame" x="137" y="0.0" width="50" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Add"/>
+                                        <connections>
+                                            <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUu-WO-HGs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KC7-dF-fXc">
+                                        <rect key="frame" x="264" y="0.0" width="80" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Subtract"/>
+                                        <connections>
+                                            <action selector="subtractButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jxj-HC-6tx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="46Q-4M-Zip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="AIE-W9-NMB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="46Q-4M-Zip" secondAttribute="trailing" constant="34" id="AMe-nQ-u0S"/>
+                            <constraint firstItem="46Q-4M-Zip" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="262" id="NHy-v2-fGq"/>
+                            <constraint firstItem="3s6-hA-P27" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="UAj-8J-vlv"/>
+                            <constraint firstItem="sNt-Up-C4b" firstAttribute="top" secondItem="46Q-4M-Zip" secondAttribute="bottom" constant="80" id="bK2-hF-jdy"/>
+                            <constraint firstItem="sNt-Up-C4b" firstAttribute="top" secondItem="46Q-4M-Zip" secondAttribute="bottom" constant="80" id="c4k-6j-x94"/>
+                            <constraint firstItem="sNt-Up-C4b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nVc-Ld-6G8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sNt-Up-C4b" secondAttribute="bottom" constant="58" id="p9v-Or-m09"/>
+                            <constraint firstItem="Ffp-dC-DRO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="pzF-p0-ntt"/>
+                            <constraint firstItem="qCd-2c-PWn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="r4r-rg-LMm"/>
+                            <constraint firstItem="3s6-hA-P27" firstAttribute="centerX" secondItem="KC7-dF-fXc" secondAttribute="centerX" id="sJq-U5-8ct"/>
+                            <constraint firstItem="qCd-2c-PWn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="187" id="v5j-h9-rZS"/>
+                            <constraint firstItem="Ffp-dC-DRO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yQU-1Q-8O0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="6qm-Gi-Y4q" id="GOB-Tm-nCM"/>
+                        <outlet property="addPlayer" destination="3s6-hA-P27" id="87u-1y-x8h"/>
+                        <outlet property="historyButton" destination="sNt-Up-C4b" id="H7V-J3-rT4"/>
+                        <outlet property="numberInput" destination="7Y3-59-y7I" id="69w-fy-LO4"/>
+                        <outlet property="pickerView" destination="Ffp-dC-DRO" id="7LV-KW-EAn"/>
+                        <outlet property="subtractButton" destination="KC7-dF-fXc" id="X0I-tu-xii"/>
+                        <outlet property="tableView" destination="46Q-4M-Zip" id="MJU-5H-cJw"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1133.3333333333335" y="415.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

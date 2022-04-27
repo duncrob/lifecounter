@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMt-pz-S5Z">
-                                <rect key="frame" x="186" y="342.5" width="42" height="21"/>
+                                <rect key="frame" x="186.5" y="343" width="41.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZO-Dh-JFu">
-                                <rect key="frame" x="125" y="337.5" width="31" height="31"/>
+                                <rect key="frame" x="126" y="337.5" width="30.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-"/>
                                 <connections>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whw-Ft-2T0">
-                                <rect key="frame" x="57" y="337.5" width="39" height="31"/>
+                                <rect key="frame" x="57.5" y="337.5" width="39" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-5"/>
                                 <connections>
@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9L9-mb-03V">
-                                <rect key="frame" x="318" y="337.5" width="42" height="31"/>
+                                <rect key="frame" x="318" y="337.5" width="41.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="+5"/>
                                 <connections>
@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp9-XW-5vS">
-                                <rect key="frame" x="186" y="542.5" width="42" height="21"/>
+                                <rect key="frame" x="186.5" y="543" width="41.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwX-SS-c4K">
-                                <rect key="frame" x="125" y="537.5" width="31" height="31"/>
+                                <rect key="frame" x="126" y="537.5" width="30.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-"/>
                                 <connections>
@@ -77,7 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-DB-lX7">
-                                <rect key="frame" x="57" y="537.5" width="39" height="31"/>
+                                <rect key="frame" x="57.5" y="537.5" width="39" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-5"/>
                                 <connections>
@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAs-nD-A6R">
-                                <rect key="frame" x="318" y="537.5" width="42" height="31"/>
+                                <rect key="frame" x="318" y="537.5" width="41.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="+5"/>
                                 <connections>
@@ -93,17 +93,53 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhX-er-Cy0">
-                                <rect key="frame" x="177.5" y="399.5" width="59" height="21"/>
+                                <rect key="frame" x="178" y="399.5" width="58.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrk-s9-e2s">
-                                <rect key="frame" x="176.5" y="485.5" width="61" height="21"/>
+                                <rect key="frame" x="176.5" y="486.5" width="61" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vb-5k-mHa">
+                                <rect key="frame" x="37" y="233" width="341.5" height="34"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hgh-B5-DXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQO-zE-ddy">
+                                        <rect key="frame" x="32" y="0.0" width="67" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iJ-Eu-h0r">
+                                        <rect key="frame" x="99" y="0.0" width="67" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wca-7r-bUt">
+                                        <rect key="frame" x="166" y="0.0" width="41.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aP-Gz-bM7">
+                                        <rect key="frame" x="207.5" y="0.0" width="67" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXk-jz-gws">
+                                        <rect key="frame" x="274.5" y="0.0" width="67" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,6 +151,7 @@
                             <constraint firstItem="JhX-er-Cy0" firstAttribute="top" secondItem="JMt-pz-S5Z" secondAttribute="bottom" constant="36" id="ADi-fJ-CtT"/>
                             <constraint firstItem="xrk-s9-e2s" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BEv-F9-pHn"/>
                             <constraint firstItem="4ZO-Dh-JFu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="Bc2-s9-jU8"/>
+                            <constraint firstItem="0Vb-5k-mHa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DOp-ku-vgC"/>
                             <constraint firstItem="9L9-mb-03V" firstAttribute="leading" secondItem="JMt-pz-S5Z" secondAttribute="trailing" constant="90" id="EMh-1h-nPf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9L9-mb-03V" secondAttribute="trailing" constant="5" id="HlF-Bg-kbc"/>
                             <constraint firstItem="CAs-nD-A6R" firstAttribute="centerY" secondItem="Yp9-XW-5vS" secondAttribute="centerY" id="KP1-mp-pYq"/>
@@ -135,6 +172,7 @@
                             <constraint firstItem="j8k-a3-fd3" firstAttribute="centerY" secondItem="Yp9-XW-5vS" secondAttribute="centerY" id="ql5-Sr-piY"/>
                             <constraint firstItem="4ZO-Dh-JFu" firstAttribute="centerY" secondItem="JMt-pz-S5Z" secondAttribute="centerY" id="sZX-c4-fdo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="302-HT-MNa" secondAttribute="trailing" constant="5" id="sig-iq-Syn"/>
+                            <constraint firstItem="0Vb-5k-mHa" firstAttribute="bottom" secondItem="JMt-pz-S5Z" secondAttribute="bottom" id="w11-xm-fQV"/>
                             <constraint firstItem="ZwX-SS-c4K" firstAttribute="centerY" secondItem="Yp9-XW-5vS" secondAttribute="centerY" id="yu0-tp-pUr"/>
                         </constraints>
                     </view>
